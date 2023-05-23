@@ -1,0 +1,26 @@
+@import "../../base.scss";
+
+
+.nav {
+  background-color: #fff !important;
+  border-radius: 0;
+  .logo {
+    width: 152px;
+    height: 48px;
+  }
+  .input {
+    width: 300px;
+    border-radius: 20px;
+  }
+
+  .expand {
+    width: 18px;
+    height: 24px;
+  }
+}
+
+@media (max-width: 768px) {
+  .input_box {
+    display: none;
+  }
+}
