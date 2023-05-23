@@ -12,6 +12,7 @@ import Kurslar from "../../Pages/Kurslar/Kurslar";
 import Guruhlar from "../../Pages/Guruhlar/Guruhlar";
 import GuruhlarDetails from "../guruhlarDetails/GuruhlarDetails";
 import Lidlar from "../../Pages/Lidlar/Lidlar";
+import Sozlamalar from "../../Pages/Sozlamalar/Sozlamalar";
 import { StudentProvider } from "../../context/studenContext";
 import { GroupProvider } from "../../context/groupContext";
 
@@ -33,6 +34,7 @@ const Root = () => {
                 <Route path="/guruhlar" element={<Guruhlar />} />
                 <Route path="/guruhlar/:id" element={<GuruhlarDetails />} />
                 <Route path="/lidlar" element={<Lidlar />} />
+                <Route path="/settings" element={<Sozlamalar />} />
               </Routes>
             </div>
           </div>
